@@ -16,7 +16,7 @@ const
   url   = require('url'),
   path  = require('path'),
   fs    = require('fs'),
-  port  = parseInt(process.argv[2] || 8881, 10),
+  port  = parseInt(process.argv[2] || 8882, 10),
   mime  = {
     '.html' : ['text/html', 86400],
     '.htm'  : ['text/html', 86400],
